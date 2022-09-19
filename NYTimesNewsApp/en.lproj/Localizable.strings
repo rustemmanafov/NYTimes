@@ -1,0 +1,11 @@
+/* 
+  Localizable.strings
+  NYTimesNewsApp
+
+  Created by Shamkhal Guliyev on 30.08.22.
+  
+*/
+
+"archiveTitle" = "Archives";
+"typing" = "typing";
+"language" = "Language";

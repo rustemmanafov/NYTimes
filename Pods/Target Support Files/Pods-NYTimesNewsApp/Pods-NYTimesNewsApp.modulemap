@@ -1,0 +1,6 @@
+framework module Pods_NYTimesNewsApp {
+  umbrella header "Pods-NYTimesNewsApp-umbrella.h"
+
+  export *
+  module * { export * }
+}

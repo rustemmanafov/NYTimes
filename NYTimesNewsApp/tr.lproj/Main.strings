@@ -1,0 +1,24 @@
+
+/* Class = "UITabBarItem"; title = "Most Popular"; ObjectID = "52c-U9-pXy"; */
+"52c-U9-pXy.title" = "Popüler";
+
+/* Class = "UITabBarItem"; title = "Archive"; ObjectID = "LZZ-hJ-m4N"; */
+"LZZ-hJ-m4N.title" = "Arşiv";
+
+/* Class = "UITextField"; placeholder = "type.."; ObjectID = "Maj-kv-4bG"; */
+"Maj-kv-4bG.placeholder" = "type..";
+
+/* Class = "UITabBarItem"; title = "Favorite"; ObjectID = "Vpk-aa-RTj"; */
+"Vpk-aa-RTj.title" = "Favoriler";
+
+/* Class = "UITabBarItem"; title = "Movie Reviews"; ObjectID = "b41-2v-4VL"; */
+"b41-2v-4VL.title" = "Film Yorumları";
+
+/* Class = "UITabBarItem"; title = "Top Stories"; ObjectID = "l0i-Ot-R02"; */
+"l0i-Ot-R02.title" = "Ana Hikayeler";
+
+/* Class = "UINavigationItem"; title = "Archive List"; ObjectID = "m5x-cF-Ife"; */
+"m5x-cF-Ife.title" = "Arşivler";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "tPh-Hs-vr3"; */
+"tPh-Hs-vr3.text" = "Title";

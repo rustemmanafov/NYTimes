@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
+        <capability name="collection view cell content view" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="K9G-wQ-mB1" customClass="ArchiveCell" customModule="NYTimesNewsApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="484" height="150"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="fwA-Ka-gZc">
+                <rect key="frame" x="0.0" y="0.0" width="484" height="150"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="dFk-Zf-Jad">
+                        <rect key="frame" x="20" y="15" width="120" height="120"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ALw-rU-rD6">
+                        <rect key="frame" x="148" y="15" width="316" height="18"/>
+                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tvH-pk-eFX">
+                        <rect key="frame" x="148" y="44" width="316" height="91"/>
+                        <string key="text">ARLINGTON, Texas — This was the moment the Cincinnati Bearcats had pined for all season. The roster is chock-full of local kids, overlooked by Ohio State in high school and largely underestimated now by the football elite, who put their place in the College Football Playoff down to a matter of necessity: The sport needed a fourth team in the field.",
+                "print_section": "B",</string>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="dFk-Zf-Jad" firstAttribute="centerY" secondItem="fwA-Ka-gZc" secondAttribute="centerY" id="1Cj-G3-mjq"/>
+                    <constraint firstItem="dFk-Zf-Jad" firstAttribute="width" secondItem="fwA-Ka-gZc" secondAttribute="width" multiplier="0.245868" constant="1" id="5J4-5l-2LZ"/>
+                    <constraint firstItem="tvH-pk-eFX" firstAttribute="leading" secondItem="ALw-rU-rD6" secondAttribute="leading" id="KRx-Zd-G69"/>
+                    <constraint firstItem="dFk-Zf-Jad" firstAttribute="height" secondItem="fwA-Ka-gZc" secondAttribute="height" multiplier="0.766667" constant="4.9999999999999858" id="RaK-rZ-Sqi"/>
+                    <constraint firstItem="tvH-pk-eFX" firstAttribute="trailing" secondItem="ALw-rU-rD6" secondAttribute="trailing" id="hQ4-ix-vi1"/>
+                    <constraint firstItem="dFk-Zf-Jad" firstAttribute="leading" secondItem="fwA-Ka-gZc" secondAttribute="leading" constant="20" symbolic="YES" id="ptd-dZ-ggi"/>
+                    <constraint firstItem="ALw-rU-rD6" firstAttribute="top" secondItem="dFk-Zf-Jad" secondAttribute="top" id="vUw-JV-PcI"/>
+                    <constraint firstItem="tvH-pk-eFX" firstAttribute="bottom" secondItem="dFk-Zf-Jad" secondAttribute="bottom" id="wE3-nb-Adq"/>
+                    <constraint firstItem="ALw-rU-rD6" firstAttribute="leading" secondItem="dFk-Zf-Jad" secondAttribute="trailing" constant="8" symbolic="YES" id="wbF-pl-0EV"/>
+                    <constraint firstItem="tvH-pk-eFX" firstAttribute="top" secondItem="ALw-rU-rD6" secondAttribute="bottom" constant="11" id="xBN-Pk-sPe"/>
+                    <constraint firstAttribute="trailing" secondItem="ALw-rU-rD6" secondAttribute="trailing" constant="20" symbolic="YES" id="yxN-Yn-A53"/>
+                </constraints>
+            </collectionViewCellContentView>
+            <size key="customSize" width="484" height="176"/>
+            <userDefinedRuntimeAttributes>
+                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                    <integer key="value" value="8"/>
+                </userDefinedRuntimeAttribute>
+            </userDefinedRuntimeAttributes>
+            <connections>
+                <outlet property="descLabel" destination="tvH-pk-eFX" id="fIB-lP-dSh"/>
+                <outlet property="itemImage" destination="dFk-Zf-Jad" id="GqS-hA-k5y"/>
+                <outlet property="titleLabel" destination="ALw-rU-rD6" id="m8D-UL-e7Z"/>
+            </connections>
+            <point key="canvasLocation" x="257.97101449275362" y="-82.366071428571431"/>
+        </collectionViewCell>
+    </objects>
+</document>
