@@ -13,7 +13,7 @@ class MyNewsViewModel {
     
     func getMyNews(complete: @escaping(()->())) {
         let db = Firestore.firestore()
-        let collection = db.collection("MyNews").document("HuwGzwebqjDzAU8f8khN")
+        let collection = db.collection("MyNews").document("list")
         collection.getDocument { snapshot, error in
             if let snapshot = snapshot, snapshot.exists, let data = snapshot.data() {
                 if let data = try? JSONSerialization.data(withJSONObject: data, options: []) {

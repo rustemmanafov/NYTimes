@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		378943FB6EEB13A991BBD44F /* Pods_NYTimesNewsApp_OneSignalNotificationServiceExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A14FF6F0946A7B4641962B8 /* Pods_NYTimesNewsApp_OneSignalNotificationServiceExtension.framework */; };
+		465CDD9728D8ECE000E2954A /* CreateNewsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 465CDD9628D8ECE000E2954A /* CreateNewsController.swift */; };
+		465CDD9928D8ECF300E2954A /* CreateNewsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 465CDD9828D8ECF300E2954A /* CreateNewsViewModel.swift */; };
+		465CDD9B28D8EE4600E2954A /* UiViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 465CDD9A28D8EE4600E2954A /* UiViewExt.swift */; };
 		4704403428C0D0D400647A1E /* SettingsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4704403328C0D0D400647A1E /* SettingsController.swift */; };
 		4704403728C0D31A00647A1E /* SettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4704403628C0D31A00647A1E /* SettingsViewModel.swift */; };
 		4704403928C0D32F00647A1E /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4704403828C0D32F00647A1E /* Settings.swift */; };
@@ -87,6 +90,9 @@
 /* Begin PBXFileReference section */
 		373FED54D00E3F034FC08DCC /* Pods-NYTimesNewsApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NYTimesNewsApp.debug.xcconfig"; path = "Target Support Files/Pods-NYTimesNewsApp/Pods-NYTimesNewsApp.debug.xcconfig"; sourceTree = "<group>"; };
 		3C86375C63857021845083FE /* Pods-NYTimesNewsApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NYTimesNewsApp.release.xcconfig"; path = "Target Support Files/Pods-NYTimesNewsApp/Pods-NYTimesNewsApp.release.xcconfig"; sourceTree = "<group>"; };
+		465CDD9628D8ECE000E2954A /* CreateNewsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateNewsController.swift; sourceTree = "<group>"; };
+		465CDD9828D8ECF300E2954A /* CreateNewsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateNewsViewModel.swift; sourceTree = "<group>"; };
+		465CDD9A28D8EE4600E2954A /* UiViewExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UiViewExt.swift; sourceTree = "<group>"; };
 		4704403328C0D0D400647A1E /* SettingsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsController.swift; sourceTree = "<group>"; };
 		4704403628C0D31A00647A1E /* SettingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewModel.swift; sourceTree = "<group>"; };
 		4704403828C0D32F00647A1E /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
@@ -170,6 +176,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		465CDD9528D8ECAA00E2954A /* CreateNews */ = {
+			isa = PBXGroup;
+			children = (
+				465CDD9628D8ECE000E2954A /* CreateNewsController.swift */,
+				465CDD9828D8ECF300E2954A /* CreateNewsViewModel.swift */,
+			);
+			path = CreateNews;
+			sourceTree = "<group>";
+		};
 		4704403528C0D2DC00647A1E /* Cell */ = {
 			isa = PBXGroup;
 			children = (
@@ -234,6 +249,7 @@
 				477F75C528B527EC007D502B /* Network */,
 				477F75C228B526DB007D502B /* Helper */,
 				477F75AB28B52595007D502B /* Scenes */,
+				465CDD9528D8ECAA00E2954A /* CreateNews */,
 				477F759A28B522E1007D502B /* Main.storyboard */,
 				477F75A028B522E3007D502B /* Assets.xcassets */,
 				477F75A228B522E3007D502B /* LaunchScreen.storyboard */,
@@ -375,6 +391,7 @@
 				4746523928BE6460008C6628 /* UserDefaultsHelper.swift */,
 				4746524E28BE72A4008C6628 /* String+Ext.swift */,
 				4704403C28C0D5FA00647A1E /* LanguageHelper.swift */,
+				465CDD9A28D8EE4600E2954A /* UiViewExt.swift */,
 			);
 			path = Helper;
 			sourceTree = "<group>";
@@ -647,12 +664,15 @@
 				477F75D628B53833007D502B /* ArchiveManager.swift in Sources */,
 				4704403B28C0D42600647A1E /* LanguageController.swift in Sources */,
 				47D4CC4428C7A3DE008D080F /* MyNews.swift in Sources */,
+				465CDD9928D8ECF300E2954A /* CreateNewsViewModel.swift in Sources */,
 				477F759528B522E1007D502B /* AppDelegate.swift in Sources */,
 				4704403D28C0D5FA00647A1E /* LanguageHelper.swift in Sources */,
 				477F75CB28B52AD6007D502B /* ArchiveCell.swift in Sources */,
+				465CDD9728D8ECE000E2954A /* CreateNewsController.swift in Sources */,
 				4706E44A28C10382009DCC83 /* LangController.swift in Sources */,
 				477F75CF28B52BAD007D502B /* ArchiveViewModel.swift in Sources */,
 				477F759F28B522E1007D502B /* NYTimesNewsApp.xcdatamodeld in Sources */,
+				465CDD9B28D8EE4600E2954A /* UiViewExt.swift in Sources */,
 				477F75C828B52ABB007D502B /* ArchiveController.swift in Sources */,
 				4706E46528C10903009DCC83 /* Fonts.swift in Sources */,
 				4746523828BE606B008C6628 /* KeychainHelper.swift in Sources */,
