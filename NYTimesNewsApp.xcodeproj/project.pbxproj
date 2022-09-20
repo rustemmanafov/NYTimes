@@ -11,6 +11,7 @@
 		465CDD9728D8ECE000E2954A /* CreateNewsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 465CDD9628D8ECE000E2954A /* CreateNewsController.swift */; };
 		465CDD9928D8ECF300E2954A /* CreateNewsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 465CDD9828D8ECF300E2954A /* CreateNewsViewModel.swift */; };
 		465CDD9B28D8EE4600E2954A /* UiViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 465CDD9A28D8EE4600E2954A /* UiViewExt.swift */; };
+		46ECEF5228DA06F900AE7883 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 46ECEF5128DA06F900AE7883 /* GoogleService-Info.plist */; };
 		4704403428C0D0D400647A1E /* SettingsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4704403328C0D0D400647A1E /* SettingsController.swift */; };
 		4704403728C0D31A00647A1E /* SettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4704403628C0D31A00647A1E /* SettingsViewModel.swift */; };
 		4704403928C0D32F00647A1E /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4704403828C0D32F00647A1E /* Settings.swift */; };
@@ -58,7 +59,6 @@
 		479E280228C76D5B005C6B17 /* MyNewsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 479E280028C76D5B005C6B17 /* MyNewsCell.xib */; };
 		47A6756C28B7CAD600D709CA /* UIViewController+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47A6756B28B7CAD600D709CA /* UIViewController+Ext.swift */; };
 		47A6756E28B7D96E00D709CA /* CategoryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47A6756D28B7D96E00D709CA /* CategoryController.swift */; };
-		47D4CC4228C79AF7008D080F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 47D4CC4128C79AF7008D080F /* GoogleService-Info.plist */; };
 		47D4CC4428C7A3DE008D080F /* MyNews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D4CC4328C7A3DE008D080F /* MyNews.swift */; };
 		738AAF518C4E315F9DAEA839 /* Pods_NYTimesNewsApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E12B50336B5F00ADC1F10F7E /* Pods_NYTimesNewsApp.framework */; };
 /* End PBXBuildFile section */
@@ -93,6 +93,7 @@
 		465CDD9628D8ECE000E2954A /* CreateNewsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateNewsController.swift; sourceTree = "<group>"; };
 		465CDD9828D8ECF300E2954A /* CreateNewsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateNewsViewModel.swift; sourceTree = "<group>"; };
 		465CDD9A28D8EE4600E2954A /* UiViewExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UiViewExt.swift; sourceTree = "<group>"; };
+		46ECEF5128DA06F900AE7883 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		4704403328C0D0D400647A1E /* SettingsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsController.swift; sourceTree = "<group>"; };
 		4704403628C0D31A00647A1E /* SettingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewModel.swift; sourceTree = "<group>"; };
 		4704403828C0D32F00647A1E /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
@@ -148,7 +149,6 @@
 		479E280028C76D5B005C6B17 /* MyNewsCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyNewsCell.xib; sourceTree = "<group>"; };
 		47A6756B28B7CAD600D709CA /* UIViewController+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Ext.swift"; sourceTree = "<group>"; };
 		47A6756D28B7D96E00D709CA /* CategoryController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CategoryController.swift; path = NYTimesNewsApp/Scenes/Archive/View/CategoryController.swift; sourceTree = SOURCE_ROOT; };
-		47D4CC4128C79AF7008D080F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		47D4CC4328C7A3DE008D080F /* MyNews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyNews.swift; sourceTree = "<group>"; };
 		4A14FF6F0946A7B4641962B8 /* Pods_NYTimesNewsApp_OneSignalNotificationServiceExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NYTimesNewsApp_OneSignalNotificationServiceExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7AE7ACC8D22A81316C666069 /* Pods-NYTimesNewsApp-OneSignalNotificationServiceExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NYTimesNewsApp-OneSignalNotificationServiceExtension.release.xcconfig"; path = "Target Support Files/Pods-NYTimesNewsApp-OneSignalNotificationServiceExtension/Pods-NYTimesNewsApp-OneSignalNotificationServiceExtension.release.xcconfig"; sourceTree = "<group>"; };
@@ -254,7 +254,7 @@
 				477F75A028B522E3007D502B /* Assets.xcassets */,
 				477F75A228B522E3007D502B /* LaunchScreen.storyboard */,
 				477F75A528B522E3007D502B /* Info.plist */,
-				47D4CC4128C79AF7008D080F /* GoogleService-Info.plist */,
+				46ECEF5128DA06F900AE7883 /* GoogleService-Info.plist */,
 				477F759D28B522E1007D502B /* NYTimesNewsApp.xcdatamodeld */,
 				4746524C28BE7119008C6628 /* Localizable.strings */,
 			);
@@ -563,10 +563,10 @@
 				477F75A128B522E3007D502B /* Assets.xcassets in Resources */,
 				4706E46228C10899009DCC83 /* Roboto-BlackItalic.ttf in Resources */,
 				4746524128BE70C4008C6628 /* ArchiveCell.xib in Resources */,
+				46ECEF5228DA06F900AE7883 /* GoogleService-Info.plist in Resources */,
 				4706E45928C10899009DCC83 /* Roboto-BoldItalic.ttf in Resources */,
 				4706E45A28C10899009DCC83 /* Roboto-Light.ttf in Resources */,
 				477F759C28B522E1007D502B /* Main.storyboard in Resources */,
-				47D4CC4228C79AF7008D080F /* GoogleService-Info.plist in Resources */,
 				4706E46028C10899009DCC83 /* Roboto-ThinItalic.ttf in Resources */,
 				4706E45F28C10899009DCC83 /* Roboto-Regular.ttf in Resources */,
 				4706E45B28C10899009DCC83 /* Roboto-Thin.ttf in Resources */,
