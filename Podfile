@@ -13,6 +13,7 @@ target 'NYTimesNewsApp' do
   pod 'OneSignalXCFramework', '>= 3.0.0', '< 4.0'
   
   pod 'FirebaseCore'
+  pod 'Firebase/Storage'
   pod 'FirebaseFirestore'
   
   
